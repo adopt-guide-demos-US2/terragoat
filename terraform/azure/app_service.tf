@@ -27,9 +27,9 @@ resource azurerm_app_service "app-service1" {
   https_only          = true
   site_config {
     dotnet_framework_version = "v6.0"
-    ftps_state = "Disabled"
-    http2_enabled = true
-    min_tls_version = "1.2"
+    ftps_state               = "Disabled"
+    http2_enabled            = true
+    min_tls_version          = "1.2"
   }
   tags = {
     git_commit           = "81738b80d571fa3034633690d13ffb460e1e7dea"
@@ -41,7 +41,7 @@ resource azurerm_app_service "app-service1" {
     git_repo             = "terragoat"
     yor_trace            = "13be096d-c599-46e5-bf54-51c6e9732858"
   }
-  identity = true
+  identity            = true
   client_cert_enabled = true
 }
 
