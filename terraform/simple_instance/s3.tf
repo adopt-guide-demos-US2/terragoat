@@ -16,5 +16,6 @@ resource "aws_s3_bucket" "docking_bay" {
     git_org              = "adopt-guide-demos-US2"
     git_repo             = "terragoat"
     yor_trace            = "6607198c-6fbf-429e-8b37-5c2184e24f75"
+    yor_name             = "docking_bay"
   }
 }
